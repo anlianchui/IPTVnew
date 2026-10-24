@@ -4,37 +4,17 @@
 #EXTINF:-1 tvg-name="CCTV-1" group-title="央视频",CCTV-1
 https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
 #EXTINF:-1 tvg-name="CCTV-1" group-title="央视频",CCTV-1
-http://74.91.26.218:82/live/cctv1hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-1" group-title="央视频",CCTV-1
 http://69.30.245.50/live/cctv1.m3u8
 #EXTINF:-1 tvg-name="CCTV-1" group-title="央视频",CCTV-1
 http://198.204.240.250:82/live/cctv1.m3u8
 #EXTINF:-1 tvg-name="CCTV-10" group-title="央视频",CCTV-10
 https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8
-#EXTINF:-1 tvg-name="CCTV-10" group-title="央视频",CCTV-10
-http://74.91.26.218:82/live/cctv10hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-11" group-title="央视频",CCTV-11
-http://74.91.26.218:82/live/cctv11hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-12" group-title="央视频",CCTV-12
 http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-13" group-title="央视频",CCTV-13
-http://74.91.26.218:82/live/cctv13hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-13" group-title="央视频",CCTV-13
 http://go.bkpcp.top/mg/cctv13
-#EXTINF:-1 tvg-name="CCTV-14" group-title="央视频",CCTV-14
-http://74.91.26.218:82/live/cctv14hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-15" group-title="央视频",CCTV-15
-http://74.91.26.218:82/live/cctv15hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-16" group-title="央视频",CCTV-16
-http://74.91.26.218:82/live/cctv16hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-17" group-title="央视频",CCTV-17
-http://74.91.26.218:82/live/cctv17hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-2" group-title="央视频",CCTV-2
-http://74.91.26.218:82/live/cctv2hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-3" group-title="央视频",CCTV-3
 http://74.91.26.218:82/live/cctv3hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-4 Asia" group-title="央视频",CCTV-4 Asia
-http://74.91.26.218:82/live/cctv4hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-4K" group-title="央视频",CCTV-4K
 http://198.204.240.250:82/live/cctv4k.m3u8
 #EXTINF:-1 tvg-name="CCTV-5+" group-title="央视频",CCTV-5+
@@ -45,12 +25,6 @@ https://live.eac-news.com/CCTV/streams/cctv6.m3u8
 http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-name="CCTV-6" group-title="央视频",CCTV-6
 http://198.204.240.250:82/live/cctv6.m3u8
-#EXTINF:-1 tvg-name="CCTV-7" group-title="央视频",CCTV-7
-http://74.91.26.218:82/live/cctv7hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-8" group-title="央视频",CCTV-8
-http://74.91.26.218:82/live/cctv8hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-8K" group-title="央视频",CCTV-8K
-http://192.151.150.154/live/cctv8k.m3u8
 #EXTINF:-1 tvg-name="CCTV-8K" group-title="央视频",CCTV-8K
 http://198.204.240.250:82/live/cctv8k.m3u8
 #EXTINF:-1 tvg-name="CCTV-9" group-title="央视频",CCTV-9
@@ -121,6 +95,8 @@ https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
 https://server1.streamssl.com/stream/news1_mid.m3u8
 #EXTINF:-1 tvg-name="Reuters" tvg-logo="https://provider-static.plex.tv/epg/cms/production/8cf9c131-2d92-4d91-86b1-22ef458d703f/reuters_reutersnow_1RDX.png" group-title="国际",Reuters
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
+#EXTINF:-1 tvg-name="TRT World" tvg-logo="https://www.trtworld.com/live/europe" group-title="国际",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="Thai PBS" tvg-logo="https://www.thaipbs.or.th/live" group-title="国际",Thai PBS
 https://thaipbs-mcx0wm.cdn.byteark.com/vtt-live/playlist.m3u8
 
@@ -181,14 +157,6 @@ https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
 # ===== 台湾 =====
 #EXTINF:-1 tvg-name="TVBS亚洲" tvg-logo="https://zh.wikipedia.org/wiki/File:TVBS_Asia_logo_2017.png" group-title="台湾",TVBS亚洲
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 tvg-name="公视" tvg-logo="https://info.pts.org.tw/%E4%B8%8B%E8%BC%89%E5%B0%88%E5%8D%80/%E5%85%AC%E8%A6%96%E5%90%84%E9%A0%BB%E9%81%93logo" group-title="台湾",公视高清
-http://211.72.174.95:8116/0.ts
-#EXTINF:-1 tvg-name="台视" tvg-logo="https://www.youtube.com/@TTV" group-title="台湾",台视高清
-http://211.72.174.95:8112/0.ts
-#EXTINF:-1 tvg-name="大立电视台" tvg-logo="http://www.dalitv.com.tw/" group-title="台湾",大立电视台
-http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-#EXTINF:-1 tvg-name="民视" tvg-logo="https://www.ftv.com.tw/" group-title="台湾",民视高清
-http://211.72.174.95:8115/0.ts
 
 # ===== 江苏 =====
 #EXTINF:-1 tvg-name="苏州4K" tvg-logo="https://www.csztv.cn/" group-title="江苏",苏州4K
