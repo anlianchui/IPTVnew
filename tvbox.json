@@ -1,0 +1,641 @@
+{
+ "name": "iPTV 公开源",
+ "lives": [
+  {
+   "group": "央视频",
+   "channels": [
+    {
+     "name": "CCTV-1",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv1hd.m3u8",
+      "https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv1hd.m3u8"
+    },
+    {
+     "name": "CCTV-10",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv10hd.m3u8",
+      "https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv10hd.m3u8"
+    },
+    {
+     "name": "CCTV-11",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv11hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv11hd.m3u8"
+    },
+    {
+     "name": "CCTV-12",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv12hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv12hd.m3u8"
+    },
+    {
+     "name": "CCTV-13",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv13hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv13hd.m3u8"
+    },
+    {
+     "name": "CCTV-14",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv14hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv14hd.m3u8"
+    },
+    {
+     "name": "CCTV-15",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv15hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv15hd.m3u8"
+    },
+    {
+     "name": "CCTV-16",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv16hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv16hd.m3u8"
+    },
+    {
+     "name": "CCTV-17",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv17hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv17hd.m3u8"
+    },
+    {
+     "name": "CCTV-2",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv2hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv2hd.m3u8"
+    },
+    {
+     "name": "CCTV-3",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv3hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv3hd.m3u8"
+    },
+    {
+     "name": "CCTV-4 Asia",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv4hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv4hd.m3u8"
+    },
+    {
+     "name": "CCTV-7",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv7hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv7hd.m3u8"
+    },
+    {
+     "name": "CCTV-8",
+     "urls": [
+      "http://74.91.26.218:82/live/cctv8hd.m3u8"
+     ],
+     "url": "http://74.91.26.218:82/live/cctv8hd.m3u8"
+    },
+    {
+     "name": "CCTV-8K",
+     "urls": [
+      "http://192.151.150.154/live/cctv8k.m3u8"
+     ],
+     "url": "http://192.151.150.154/live/cctv8k.m3u8"
+    },
+    {
+     "name": "CCTV-9",
+     "urls": [
+      "https://xykt-fix.github.io/Y77.m3u8"
+     ],
+     "url": "https://xykt-fix.github.io/Y77.m3u8"
+    }
+   ]
+  },
+  {
+   "group": "卫视",
+   "channels": [
+    {
+     "name": "浙江卫视4K",
+     "urls": [
+      "https://ali-xwl.cztv.com/live/channel4k2160p.m3u8"
+     ],
+     "url": "https://ali-xwl.cztv.com/live/channel4k2160p.m3u8"
+    },
+    {
+     "name": "湖南卫视4K",
+     "urls": [
+      "https://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8"
+     ],
+     "url": "https://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8"
+    }
+   ]
+  },
+  {
+   "group": "体育",
+   "channels": [
+    {
+     "name": "ACCDN",
+     "urls": [
+      "https://raycom-accdn-firetv.amagi.tv/1080p-cc/index.m3u8"
+     ],
+     "url": "https://raycom-accdn-firetv.amagi.tv/1080p-cc/index.m3u8"
+    },
+    {
+     "name": "FIFA+",
+     "urls": [
+      "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8"
+     ],
+     "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8"
+    },
+    {
+     "name": "FUEL TV",
+     "urls": [
+      "https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8"
+     ],
+     "url": "https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8"
+    },
+    {
+     "name": "FloRacing",
+     "urls": [
+      "https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/1080p-cc/index.m3u8"
+     ],
+     "url": "https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/1080p-cc/index.m3u8"
+    },
+    {
+     "name": "MTRSPT1",
+     "urls": [
+      "https://amg02873-kravemedia-mtrspt1-samsungau-2anp4.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-samsungau/playlist.m3u8"
+     ],
+     "url": "https://amg02873-kravemedia-mtrspt1-samsungau-2anp4.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-samsungau/playlist.m3u8"
+    },
+    {
+     "name": "NHL FAST",
+     "urls": [
+      "https://nhl-firetv.amagi.tv/playlist1080p.m3u8"
+     ],
+     "url": "https://nhl-firetv.amagi.tv/playlist1080p.m3u8"
+    },
+    {
+     "name": "Pac-12 Insider",
+     "urls": [
+      "https://pac12-firetv.amagi.tv/1080p-en-cc/index.m3u8"
+     ],
+     "url": "https://pac12-firetv.amagi.tv/1080p-en-cc/index.m3u8"
+    },
+    {
+     "name": "Red Bull TV",
+     "urls": [
+      "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8"
+     ],
+     "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8"
+    },
+    {
+     "name": "Sky Racing 1",
+     "urls": [
+      "https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8"
+     ],
+     "url": "https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8"
+    },
+    {
+     "name": "Sky Racing 2",
+     "urls": [
+      "https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8"
+     ],
+     "url": "https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8"
+    },
+    {
+     "name": "SportsGrid",
+     "urls": [
+      "https://sportsgrid-tribal.amagi.tv/playlist1080p.m3u8"
+     ],
+     "url": "https://sportsgrid-tribal.amagi.tv/playlist1080p.m3u8"
+    },
+    {
+     "name": "Tennis Channel International",
+     "urls": [
+      "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8"
+     ],
+     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8"
+    },
+    {
+     "name": "Trace Sport Stars",
+     "urls": [
+      "https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8"
+     ],
+     "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8"
+    },
+    {
+     "name": "World Poker Tour",
+     "urls": [
+      "https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8"
+     ],
+     "url": "https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8"
+    },
+    {
+     "name": "World of Freesports",
+     "urls": [
+      "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/1080p-en/index.m3u8"
+     ],
+     "url": "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/1080p-en/index.m3u8"
+    },
+    {
+     "name": "beIN Sports Xtra",
+     "urls": [
+      "https://bein-xtra-bein.amagi.tv/playlistR1080p.m3u8"
+     ],
+     "url": "https://bein-xtra-bein.amagi.tv/playlistR1080p.m3u8"
+    },
+    {
+     "name": "纬来体育",
+     "urls": [
+      "https://hlsz.yjjcfw.com/live/vl.m3u8?expire=1786948372&sign=2e4a56b89fe644db147552011f972714"
+     ],
+     "url": "https://hlsz.yjjcfw.com/live/vl.m3u8?expire=1786948372&sign=2e4a56b89fe644db147552011f972714"
+    }
+   ]
+  },
+  {
+   "group": "国际",
+   "channels": [
+    {
+     "name": "Al Jazeera English",
+     "urls": [
+      "https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8"
+     ],
+     "url": "https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8"
+    },
+    {
+     "name": "CNA",
+     "urls": [
+      "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8"
+     ],
+     "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8"
+    },
+    {
+     "name": "France 24 English",
+     "urls": [
+      "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8"
+     ],
+     "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8"
+    },
+    {
+     "name": "France 24 Español",
+     "urls": [
+      "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8"
+     ],
+     "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8"
+    },
+    {
+     "name": "France 24 Français",
+     "urls": [
+      "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8"
+     ],
+     "url": "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8"
+    },
+    {
+     "name": "NEWS1",
+     "urls": [
+      "https://server1.streamssl.com/stream/news1_mid.m3u8"
+     ],
+     "url": "https://server1.streamssl.com/stream/news1_mid.m3u8"
+    },
+    {
+     "name": "Reuters",
+     "urls": [
+      "https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8"
+     ],
+     "url": "https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8"
+    },
+    {
+     "name": "Thai PBS",
+     "urls": [
+      "https://thaipbs-mcx0wm.cdn.byteark.com/vtt-live/playlist.m3u8"
+     ],
+     "url": "https://thaipbs-mcx0wm.cdn.byteark.com/vtt-live/playlist.m3u8"
+    }
+   ]
+  },
+  {
+   "group": "文旅",
+   "channels": [
+    {
+     "name": "CGTN Documentary",
+     "urls": [
+      "https://english-livebkali.cgtn.com/live/doccgtn.m3u8"
+     ],
+     "url": "https://english-livebkali.cgtn.com/live/doccgtn.m3u8"
+    },
+    {
+     "name": "China Travel",
+     "urls": [
+      "https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8"
+     ],
+     "url": "https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8"
+    },
+    {
+     "name": "Court TV",
+     "urls": [
+      "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8"
+     ],
+     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8"
+    },
+    {
+     "name": "Documentary+",
+     "urls": [
+      "https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8"
+     ],
+     "url": "https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8"
+    },
+    {
+     "name": "Gusto TV",
+     "urls": [
+      "https://dbrb49pjoymg4.cloudfront.net/10001/99991328/hls/playlist.m3u8?ads.xumo_channelId=99991328"
+     ],
+     "url": "https://dbrb49pjoymg4.cloudfront.net/10001/99991328/hls/playlist.m3u8?ads.xumo_channelId=99991328"
+    },
+    {
+     "name": "History Hit",
+     "urls": [
+      "https://lds-timeline-rakuten.amagi.tv/1080p-cc/index.m3u8"
+     ],
+     "url": "https://lds-timeline-rakuten.amagi.tv/1080p-cc/index.m3u8"
+    },
+    {
+     "name": "InTravel",
+     "urls": [
+      "https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/1080p/index.m3u8"
+     ],
+     "url": "https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/1080p/index.m3u8"
+    },
+    {
+     "name": "Love Nature 4K",
+     "urls": [
+      "https://pb-ehs1glsha1juy.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ehs1glsha1juy/f2141f37-1f48-475b-ba54-b9efb62346db/0.m3u8"
+     ],
+     "url": "https://pb-ehs1glsha1juy.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ehs1glsha1juy/f2141f37-1f48-475b-ba54-b9efb62346db/0.m3u8"
+    },
+    {
+     "name": "NASA+",
+     "urls": [
+      "https://ee119c17e6ed643893ff6ae377fe0693.7wzuvg.channel-assembly.mediatailor.us-east-1.amazonaws.com/v1/channel/NASAPrime/NASAPlus.m3u8"
+     ],
+     "url": "https://ee119c17e6ed643893ff6ae377fe0693.7wzuvg.channel-assembly.mediatailor.us-east-1.amazonaws.com/v1/channel/NASAPrime/NASAPlus.m3u8"
+    },
+    {
+     "name": "WildEarth",
+     "urls": [
+      "https://wildearth-plex.amagi.tv/masterR1080p.m3u8"
+     ],
+     "url": "https://wildearth-plex.amagi.tv/masterR1080p.m3u8"
+    }
+   ]
+  },
+  {
+   "group": "娱乐时尚",
+   "channels": [
+    {
+     "name": "Estrella TV",
+     "urls": [
+      "https://estrellatv-oando.amagi.tv/playlistR1080p.m3u8"
+     ],
+     "url": "https://estrellatv-oando.amagi.tv/playlistR1080p.m3u8"
+    },
+    {
+     "name": "FashionTV Paris L'Original",
+     "urls": [
+      "https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8"
+     ],
+     "url": "https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8"
+    },
+    {
+     "name": "Global Fashion Channel",
+     "urls": [
+      "https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8"
+     ],
+     "url": "https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8"
+    },
+    {
+     "name": "Graham Norton",
+     "urls": [
+      "https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist1080_p.m3u8"
+     ],
+     "url": "https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist1080_p.m3u8"
+    },
+    {
+     "name": "Mediaset Italia",
+     "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/Mediaset_AU/Live.m3u8"
+     ],
+     "url": "https://d3k8wzt41aflvx.cloudfront.net/Mediaset_AU/Live.m3u8"
+    },
+    {
+     "name": "MovieSphere",
+     "urls": [
+      "https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8"
+     ],
+     "url": "https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8"
+    },
+    {
+     "name": "Mystery TV",
+     "urls": [
+      "https://aenetworks-mysterytv-rakuten.amagi.tv/1080p-vtt/index.m3u8"
+     ],
+     "url": "https://aenetworks-mysterytv-rakuten.amagi.tv/1080p-vtt/index.m3u8"
+    },
+    {
+     "name": "Qello Concerts",
+     "urls": [
+      "https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8"
+     ],
+     "url": "https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8"
+    },
+    {
+     "name": "Rai Italia",
+     "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAIHD/Live.m3u8"
+     ],
+     "url": "https://d3k8wzt41aflvx.cloudfront.net/RAIHD/Live.m3u8"
+    },
+    {
+     "name": "Rai World Premium",
+     "urls": [
+      "https://d3k8wzt41aflvx.cloudfront.net/RAIP/Live.m3u8"
+     ],
+     "url": "https://d3k8wzt41aflvx.cloudfront.net/RAIP/Live.m3u8"
+    },
+    {
+     "name": "Totalmusic Concerts",
+     "urls": [
+      "https://cdn.40mediagroup.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8"
+     ],
+     "url": "https://cdn.40mediagroup.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8"
+    },
+    {
+     "name": "Wipeout Xtra",
+     "urls": [
+      "https://amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtraau-samsungau/playlist.m3u8"
+     ],
+     "url": "https://amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtraau-samsungau/playlist.m3u8"
+    }
+   ]
+  },
+  {
+   "group": "香港",
+   "channels": [
+    {
+     "name": "耀才财经",
+     "urls": [
+      "https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8"
+     ],
+     "url": "https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8"
+    }
+   ]
+  },
+  {
+   "group": "台湾",
+   "channels": [
+    {
+     "name": "TVBS亚洲",
+     "urls": [
+      "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8"
+     ],
+     "url": "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8"
+    },
+    {
+     "name": "公视高清",
+     "urls": [
+      "http://211.72.174.95:8116/0.ts"
+     ],
+     "url": "http://211.72.174.95:8116/0.ts"
+    },
+    {
+     "name": "台视高清",
+     "urls": [
+      "http://211.72.174.95:8112/0.ts"
+     ],
+     "url": "http://211.72.174.95:8112/0.ts"
+    },
+    {
+     "name": "大立电视台",
+     "urls": [
+      "http://www.dalitv.com.tw:4568/live/dali/index.m3u8"
+     ],
+     "url": "http://www.dalitv.com.tw:4568/live/dali/index.m3u8"
+    },
+    {
+     "name": "民视高清",
+     "urls": [
+      "http://211.72.174.95:8115/0.ts"
+     ],
+     "url": "http://211.72.174.95:8115/0.ts"
+    }
+   ]
+  },
+  {
+   "group": "江苏",
+   "channels": [
+    {
+     "name": "苏州4K",
+     "urls": [
+      "https://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8"
+     ],
+     "url": "https://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8"
+    },
+    {
+     "name": "苏州文化生活",
+     "urls": [
+      "https://live-auth.51kandianshi.com/szgd/csztv3.m3u8"
+     ],
+     "url": "https://live-auth.51kandianshi.com/szgd/csztv3.m3u8"
+    },
+    {
+     "name": "苏州新闻综合",
+     "urls": [
+      "https://live-auth.51kandianshi.com/szgd/csztv1.m3u8"
+     ],
+     "url": "https://live-auth.51kandianshi.com/szgd/csztv1.m3u8"
+    },
+    {
+     "name": "苏州生活资讯",
+     "urls": [
+      "https://live-auth.51kandianshi.com/szgd/csztv5.m3u8"
+     ],
+     "url": "https://live-auth.51kandianshi.com/szgd/csztv5.m3u8"
+    },
+    {
+     "name": "苏州电影娱乐",
+     "urls": [
+      "https://live-auth.51kandianshi.com/szgd/csztv4.m3u8"
+     ],
+     "url": "https://live-auth.51kandianshi.com/szgd/csztv4.m3u8"
+    },
+    {
+     "name": "苏州社会经济",
+     "urls": [
+      "https://live-auth.51kandianshi.com/szgd/csztv2.m3u8"
+     ],
+     "url": "https://live-auth.51kandianshi.com/szgd/csztv2.m3u8"
+    }
+   ]
+  },
+  {
+   "group": "福建",
+   "channels": [
+    {
+     "name": "德化电视台",
+     "urls": [
+      "https://play.cmptp.fjgdwl.com/live/63a563ec75764af588f3215b0afa2588.m3u8"
+     ],
+     "url": "https://play.cmptp.fjgdwl.com/live/63a563ec75764af588f3215b0afa2588.m3u8"
+    }
+   ]
+  },
+  {
+   "group": "青海",
+   "channels": [
+    {
+     "name": "西宁新闻综合",
+     "urls": [
+      "https://liveout.xntv.tv/a65jur/96iln2.m3u8"
+     ],
+     "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8"
+    }
+   ]
+  },
+  {
+   "group": "宠物",
+   "channels": [
+    {
+     "name": "Pet Club TV",
+     "urls": [
+      "https://petclub-samsungaus.amagi.tv/playlist1080p.m3u8"
+     ],
+     "url": "https://petclub-samsungaus.amagi.tv/playlist1080p.m3u8"
+    }
+   ]
+  },
+  {
+   "group": "韩国",
+   "channels": [
+    {
+     "name": "Arirang",
+     "urls": [
+      "https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/smil:arirang_1gch.smil/playlist.m3u8"
+     ],
+     "url": "https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/smil:arirang_1gch.smil/playlist.m3u8"
+    }
+   ]
+  }
+ ],
+ "sites": [],
+ "parses": []
+}

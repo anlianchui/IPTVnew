@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPTV 直播源 · 影视仓订阅</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#171a21; --card2:#1d212a; --line:#272c37;
+    --txt:#e8eaed; --sub:#9aa4b2; --acc:#4f8cff; --ok:#3ddc84; --warn:#ffb454;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);
+    font:15px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+    padding:20px 16px 48px}
+  .wrap{max-width:760px;margin:0 auto}
+  h1{font-size:22px;margin-bottom:6px}
+  .lead{color:var(--sub);font-size:14px;margin-bottom:22px}
+  .stats{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;
+    padding:10px 14px;flex:1;min-width:104px}
+  .stat b{display:block;font-size:20px;color:var(--acc)}
+  .stat span{font-size:12px;color:var(--sub)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:16px;margin-bottom:14px}
+  .card.hi{border-color:var(--acc)}
+  .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;
+    background:var(--card2);color:var(--sub);margin-left:8px;vertical-align:middle}
+  .tag.rec{background:rgba(79,140,255,.16);color:var(--acc)}
+  h2{font-size:16px;margin-bottom:4px}
+  .desc{color:var(--sub);font-size:13px;margin-bottom:12px}
+  .urlbox{display:flex;gap:8px;align-items:stretch}
+  input{flex:1;min-width:0;background:#0b0d12;border:1px solid var(--line);
+    color:var(--txt);border-radius:8px;padding:9px 11px;
+    font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+  button{background:var(--acc);color:#fff;border:0;border-radius:8px;
+    padding:0 15px;font-size:13px;cursor:pointer;white-space:nowrap;transition:opacity .2s}
+  button:active{opacity:.7}
+  button.done{background:var(--ok)}
+  ol{margin:12px 0 0 18px;color:var(--sub);font-size:13px}
+  ol li{margin-bottom:5px}
+  code{background:var(--card2);padding:1px 5px;border-radius:4px;
+    font:12px ui-monospace,Menlo,monospace}
+  .note{background:rgba(255,180,84,.09);border:1px solid rgba(255,180,84,.25);
+    border-radius:10px;padding:12px 14px;color:var(--sub);font-size:12.5px;margin-top:20px}
+  .note b{color:var(--warn)}
+  .groups{margin-top:10px;font-size:12.5px;color:var(--sub)}
+  .groups i{font-style:normal;display:inline-block;background:var(--card2);
+    border-radius:5px;padding:2px 7px;margin:2px 3px 2px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>iPTV 直播源 · 影视仓订阅</h1>
+  <p class="lead">基于 anlianchui/iptv2 仓库公开源整理，已剔除失效条目、升级 HTTPS、补全台标。</p>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card hi">
+    <h2>tvbox.json　<span class="tag rec">推荐</span></h2>
+    <p class="desc">影视仓 / TVBox 直播接口，含分组与多线路，粘贴到「配置地址」即可。</p>
+    <div class="urlbox">
+      <input id="u1" readonly>
+      <button onclick="cp('u1',this)">复制</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>tvbox-full.json　<span class="tag">海外可用</span></h2>
+    <p class="desc">完整版，额外含 Bloomberg、DW 等在大陆不可达的频道。海外网络用这个。</p>
+    <div class="urlbox">
+      <input id="u2" readonly>
+      <button onclick="cp('u2',this)">复制</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>live.m3u　<span class="tag">带台标</span></h2>
+    <p class="desc">标准 M3U 播放列表，适合 TiviMate、APTV、Kodi、PotPlayer 等。</p>
+    <div class="urlbox">
+      <input id="u3" readonly>
+      <button onclick="cp('u3',this)">复制</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>live.txt　<span class="tag">兼容性最好</span></h2>
+    <p class="desc">「频道名,地址」纯文本，影视仓 → 设置 → 直播 → 添加直播源。</p>
+    <div class="urlbox">
+      <input id="u4" readonly>
+      <button onclick="cp('u4',this)">复制</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>tvbox-cctv-ipv6.json　<span class="tag">CCTV 全</span></h2>
+    <p class="desc">CCTV-1~17 完整版（含 5 / 5+ / 6）。均为 IPv6 直连地址，
+      播放设备所在网络需支持 IPv6，否则会播放失败。</p>
+    <div class="urlbox">
+      <input id="u5" readonly>
+      <button onclick="cp('u5',this)">复制</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>影视仓怎么用</h2>
+    <ol>
+      <li>打开影视仓 → <b>设置</b> → <b>直播</b>（或首页顶部切到直播）</li>
+      <li>选 <b>添加直播源</b> / <b>自定义直播</b>，粘贴上面的地址</li>
+      <li>推荐用 <code>tvbox.json</code>；老版本不认 JSON 就用 <code>live.txt</code></li>
+      <li>黑屏时先换个源试试，仍不行多半是当地网络到该 CDN 不通</li>
+    </ol>
+  </div>
+
+  <div class="note">
+    <b>注意</b>：第三方源（<code>live-ext.m3u</code>）来自网络上流传的转发站，
+    项目方明确不维护、不保证可用，因此未并入推荐版。
+    另外直播源随时可能失效，列表中若有打不开的频道属正常现象。
+  </div>
+
+  <div class="groups" id="groups"></div>
+</div>
+
+<script>
+  // 发布后自动适配域名；sharecode 是访问凭据，必须带在链接里（不带会 403）
+  var sc = new URLSearchParams(location.search).get('sharecode');
+  var base = location.origin + location.pathname.replace(/index\.html$/, '');
+  function set(id, file){
+    document.getElementById(id).value =
+      base + file + (sc ? '?sharecode=' + encodeURIComponent(sc) : '');
+  }
+  set('u1','tvbox.json'); set('u2','tvbox-full.json');
+  set('u3','live.m3u');   set('u4','live.txt');
+  set('u5','tvbox-cctv-ipv6.json');
+
+  function cp(id, btn){
+    var el = document.getElementById(id);
+    el.select(); el.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(el.value).then(function(){
+      var old = btn.textContent;
+      btn.textContent = '已复制'; btn.classList.add('done');
+      setTimeout(function(){ btn.textContent = old; btn.classList.remove('done'); }, 1600);
+    });
+  }
+
+  fetch((base + 'tvbox.json') + (sc ? '?sharecode=' + encodeURIComponent(sc) : ''))
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      var ch = 0;
+      d.lives.forEach(function(g){ ch += g.channels.length; });
+      document.getElementById('stats').innerHTML =
+        '<div class="stat"><b>' + d.lives.length + '</b><span>分组</span></div>' +
+        '<div class="stat"><b>' + ch + '</b><span>频道</span></div>' +
+        '<div class="stat"><b>JSON</b><span>接口格式</span></div>';
+      document.getElementById('groups').innerHTML =
+        '<div style="margin-bottom:5px">分组构成：</div>' +
+        d.lives.map(function(g){
+          return '<i>' + g.group + ' · ' + g.channels.length + '</i>';
+        }).join('');
+    })
+    .catch(function(){});
+</script>
+</body>
+</html>
