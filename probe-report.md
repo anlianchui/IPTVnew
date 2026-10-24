@@ -1,6 +1,6 @@
 # 探测与优化报告
 
-生成时间：2026-10-24 21:53:37 CST
+生成时间：2026-10-24 21:56:53 CST
 探测范围：133 条源（精选 30 + 海外 42 + 第三方 61）
 
 | 结果 | 数量 | 处理方式 |
@@ -16,7 +16,7 @@ HTTPS 升级 2 条，补全台标 42 条。
 
 - GitHub https://raw.githubusercontent.com/anlianchui/iptv2/main/IPTV.m3u
 - GitHub https://raw.githubusercontent.com/anlianchui/iptv2/main/IPTV-overseas.m3u
-- CCTV 补充源 · GitHub https://cdn.jsdelivr.net/gh/iptv-org/iptv@master/streams/cn.m3u
+- CCTV 补充源 · 拉取失败(<urlopen error [Errno 104] Connection reset by peer>)，回退本地 cn-raw.m3u
 - CCTV 完整版(IPv6) · GitHub https://cdn.jsdelivr.net/gh/fanmingming/live@main/tv/m3u/ipv6.m3u
 
 ## 推荐版分组统计

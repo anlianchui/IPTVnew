@@ -5,23 +5,37 @@
 
 ## 在线链接
 
-| 文件 | 用途 |
+**两个入口要的格式不一样，粘错了就会解析失败、一个频道都不出。**
+
+### 入口 A：设置 → 直播 → 添加直播源
+
+只认 m3u / txt 格式的直播源。
+
+| 链接 | 说明 |
 | --- | --- |
-| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox.json` | **推荐**。影视仓 / TVBox 配置地址 |
-| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox-https.json` | **播放失败先试这个**。纯 HTTPS，63 频道，每个都能播 |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/live-https.txt` | **推荐**。纯 HTTPS，63 频道，每个都能播 |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/live.txt` | 83 频道最全，但含明文线路 |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/live.m3u` | M3U，带台标与分组 |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/live-https.m3u` | 纯 HTTPS 的 M3U |
+
+### 入口 B：首页 / 设置 → 配置地址
+
+这是 TVBox 系的配置接口，只认 JSON。
+
+| 链接 | 说明 |
+| --- | --- |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox-https.json` | **推荐**。纯 HTTPS，63 频道 |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox.json` | 83 频道，含明文线路 |
 | `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox-full.json` | 完整版，额外含大陆不可达的频道（海外用） |
 | `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox-cctv-ipv6.json` | CCTV-1~17 完整版，需 IPv6 网络 |
-| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/live.m3u` | 标准 M3U，带台标，适合 TiviMate / APTV / Kodi |
-| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/live.txt` | 纯文本「频道名,地址」，兼容性最好 |
 
-影视仓入口：**设置 → 直播 → 添加直播源**（或首页顶部切到直播）。
+> 把 `tvbox.json` 粘进「添加直播源」会解析失败——那个入口要的是 `live.txt` / `live.m3u`。
 
-**播放黑屏先看这里**：Android 默认禁止明文流量，带 `http://` 线路的频道会直接黑屏。
-优先用 `tvbox-https.json`（纯 HTTPS，63 个频道全部可播）；
-`tvbox.json` 里同一频道已把 HTTPS 线路排到首位，但仍有 20 个频道只有明文线路。
-老版本不认 JSON 就用 `live.txt`。
+### 播放黑屏
 
-托管仓库：<https://github.com/anlianchui/IPTVnew>
+Android 默认禁止明文流量，带 `http://` 线路的频道会直接黑屏。
+优先用**纯 HTTPS 版**；非纯 HTTPS 版里同一频道已把 HTTPS 排到首选线路，
+但仍有约 20 个频道（央视频 13 个、台湾 5 个）只有明文线路可用。
 
 ## 关于 CCTV
 
