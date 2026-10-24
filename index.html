@@ -123,13 +123,9 @@
 </div>
 
 <script>
-  // 发布后自动适配域名；sharecode 是访问凭据，必须带在链接里（不带会 403）
-  var sc = new URLSearchParams(location.search).get('sharecode');
-  var base = location.origin + location.pathname.replace(/index\.html$/, '');
-  function set(id, file){
-    document.getElementById(id).value =
-      base + file + (sc ? '?sharecode=' + encodeURIComponent(sc) : '');
-  }
+  // 固定用 jsdelivr CDN 直链：国内可访问，且不依赖当前页面域名
+  var base = 'https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/';
+  function set(id, file){ document.getElementById(id).value = base + file; }
   set('u1','tvbox.json'); set('u2','tvbox-full.json');
   set('u3','live.m3u');   set('u4','live.txt');
   set('u5','tvbox-cctv-ipv6.json');
@@ -144,7 +140,7 @@
     });
   }
 
-  fetch((base + 'tvbox.json') + (sc ? '?sharecode=' + encodeURIComponent(sc) : ''))
+  fetch(base + 'tvbox.json')
     .then(function(r){ return r.json(); })
     .then(function(d){
       var ch = 0;

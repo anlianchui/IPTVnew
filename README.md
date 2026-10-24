@@ -5,21 +5,18 @@
 
 ## 在线链接
 
-> `?sharecode=...` 是链接的一部分，**必须一起复制**，漏掉会打不开。
-
 | 文件 | 用途 |
 | --- | --- |
-| `https://a6a04ab9c66dd2fd6.app.workbuddy.host/tvbox.json?sharecode=AL6U7JJJIB` | **推荐**。影视仓 / TVBox 配置地址 |
-| `https://a6a04ab9c66dd2fd6.app.workbuddy.host/tvbox-full.json?sharecode=AL6U7JJJIB` | 完整版，额外含大陆不可达的频道（海外用） |
-| `https://a6a04ab9c66dd2fd6.app.workbuddy.host/tvbox-cctv-ipv6.json?sharecode=AL6U7JJJIB` | CCTV-1~17 完整版，需 IPv6 网络 |
-| `https://a6a04ab9c66dd2fd6.app.workbuddy.host/live.m3u?sharecode=AL6U7JJJIB` | 标准 M3U，带台标，适合 TiviMate / APTV / Kodi |
-| `https://a6a04ab9c66dd2fd6.app.workbuddy.host/live.txt?sharecode=AL6U7JJJIB` | 纯文本「频道名,地址」，兼容性最好 |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox.json` | **推荐**。影视仓 / TVBox 配置地址 |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox-full.json` | 完整版，额外含大陆不可达的频道（海外用） |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox-cctv-ipv6.json` | CCTV-1~17 完整版，需 IPv6 网络 |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/live.m3u` | 标准 M3U，带台标，适合 TiviMate / APTV / Kodi |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/live.txt` | 纯文本「频道名,地址」，兼容性最好 |
 
 影视仓入口：**设置 → 直播 → 添加直播源**（或首页顶部切到直播）。
 老版本不认 JSON 就用 `live.txt`。
 
-浏览器打开首页 `https://a6a04ab9c66dd2fd6.app.workbuddy.host/?sharecode=AL6U7JJJIB`
-可以点按钮直接复制各链接。
+托管仓库：<https://github.com/anlianchui/IPTVnew>
 
 ## 关于 CCTV
 
