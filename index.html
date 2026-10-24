@@ -66,6 +66,16 @@
     </div>
   </div>
 
+  <div class="card hi">
+    <h2>tvbox-https.json　<span class="tag rec">播放失败先试这个</span></h2>
+    <p class="desc">只含 HTTPS 源，共 63 个频道。Android 默认禁止明文流量，
+      带 <code>http://</code> 线路的频道会黑屏；这一版每个频道都能直连播放。</p>
+    <div class="urlbox">
+      <input id="u6" readonly>
+      <button onclick="cp('u6',this)">复制</button>
+    </div>
+  </div>
+
   <div class="card">
     <h2>tvbox-full.json　<span class="tag">海外可用</span></h2>
     <p class="desc">完整版，额外含 Bloomberg、DW 等在大陆不可达的频道。海外网络用这个。</p>
@@ -129,6 +139,7 @@
   set('u1','tvbox.json'); set('u2','tvbox-full.json');
   set('u3','live.m3u');   set('u4','live.txt');
   set('u5','tvbox-cctv-ipv6.json');
+  set('u6','tvbox-https.json');
 
   function cp(id, btn){
     var el = document.getElementById(id);

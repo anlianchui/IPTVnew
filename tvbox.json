@@ -7,18 +7,18 @@
     {
      "name": "CCTV-1",
      "urls": [
-      "http://74.91.26.218:82/live/cctv1hd.m3u8",
-      "https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8"
+      "https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8",
+      "http://74.91.26.218:82/live/cctv1hd.m3u8"
      ],
-     "url": "http://74.91.26.218:82/live/cctv1hd.m3u8"
+     "url": "https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8"
     },
     {
      "name": "CCTV-10",
      "urls": [
-      "http://74.91.26.218:82/live/cctv10hd.m3u8",
-      "https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8"
+      "https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8",
+      "http://74.91.26.218:82/live/cctv10hd.m3u8"
      ],
-     "url": "http://74.91.26.218:82/live/cctv10hd.m3u8"
+     "url": "https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8"
     },
     {
      "name": "CCTV-11",

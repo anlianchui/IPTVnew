@@ -8,12 +8,17 @@
 | 文件 | 用途 |
 | --- | --- |
 | `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox.json` | **推荐**。影视仓 / TVBox 配置地址 |
+| `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox-https.json` | **播放失败先试这个**。纯 HTTPS，63 频道，每个都能播 |
 | `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox-full.json` | 完整版，额外含大陆不可达的频道（海外用） |
 | `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/tvbox-cctv-ipv6.json` | CCTV-1~17 完整版，需 IPv6 网络 |
 | `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/live.m3u` | 标准 M3U，带台标，适合 TiviMate / APTV / Kodi |
 | `https://cdn.jsdelivr.net/gh/anlianchui/IPTVnew@main/live.txt` | 纯文本「频道名,地址」，兼容性最好 |
 
 影视仓入口：**设置 → 直播 → 添加直播源**（或首页顶部切到直播）。
+
+**播放黑屏先看这里**：Android 默认禁止明文流量，带 `http://` 线路的频道会直接黑屏。
+优先用 `tvbox-https.json`（纯 HTTPS，63 个频道全部可播）；
+`tvbox.json` 里同一频道已把 HTTPS 线路排到首位，但仍有 20 个频道只有明文线路。
 老版本不认 JSON 就用 `live.txt`。
 
 托管仓库：<https://github.com/anlianchui/IPTVnew>
